@@ -12,6 +12,14 @@ const connection = mysql.createConnection({
   database: 'list_app'
 });
 
+connection.connect((err) => {
+  if (err) {
+    console.log('error connecting: ' + err.stack);
+    return;
+  }
+  console.log('success');
+});
+
 app.get('/', (req, res) => {
   res.render('top.ejs');
 });
