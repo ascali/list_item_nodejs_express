@@ -1,0 +1,33 @@
+{
+  "name": "list_item_nodejs_express",
+  "version": "1.0.0",
+  "description": "list item nodejs express mysql",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ascali/list_item_nodejs_express.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "ejs",
+    "mysql",
+    "list",
+    "item",
+    "ascaliko"
+  ],
+  "author": "Ascaliko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ascali/list_item_nodejs_express/issues"
+  },
+  "homepage": "https://github.com/ascali/list_item_nodejs_express#readme",
+  "dependencies": {
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
